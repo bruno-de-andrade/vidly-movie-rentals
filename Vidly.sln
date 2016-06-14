@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vidly", "Vidly\Vidly.csproj", "{EE096BC4-46FD-4D35-816E-9CF5BB58B75B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vidly.Tests", "Vidly.Tests\Vidly.Tests.csproj", "{13A5CD3F-379F-49BA-B46C-D889DD4C5FA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE096BC4-46FD-4D35-816E-9CF5BB58B75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE096BC4-46FD-4D35-816E-9CF5BB58B75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE096BC4-46FD-4D35-816E-9CF5BB58B75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE096BC4-46FD-4D35-816E-9CF5BB58B75B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A5CD3F-379F-49BA-B46C-D889DD4C5FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A5CD3F-379F-49BA-B46C-D889DD4C5FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A5CD3F-379F-49BA-B46C-D889DD4C5FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A5CD3F-379F-49BA-B46C-D889DD4C5FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
