@@ -255,6 +255,10 @@
     <Compile Include="Migrations\201606170400108_AddMovieReleaseDate_DateAdded_NumberInStock.Designer.cs">
       <DependentUpon>201606170400108_AddMovieReleaseDate_DateAdded_NumberInStock.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606280303372_SetMovieNameRequired.cs" />
+    <Compile Include="Migrations\201606280303372_SetMovieNameRequired.Designer.cs">
+      <DependentUpon>201606280303372_SetMovieNameRequired.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -392,6 +396,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606170400108_AddMovieReleaseDate_DateAdded_NumberInStock.resx">
       <DependentUpon>201606170400108_AddMovieReleaseDate_DateAdded_NumberInStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606280303372_SetMovieNameRequired.resx">
+      <DependentUpon>201606280303372_SetMovieNameRequired.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
