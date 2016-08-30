@@ -26,12 +26,17 @@ namespace Vidly.Controllers.Api
 
             foreach (var movie in movies)
             {
+                if (movie.NumberAvailable == 0)
+                    return BadRequest("Movie is not available");
+
                 _context.Rentals.Add(new Rental
                 {
                     Customer = customer,
                     Movie = movie,
                     DateRented = DateTime.Now
                 });
+
+                movie.NumberAvailable--;
             }
             
             _context.SaveChanges();
